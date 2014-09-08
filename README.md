@@ -30,3 +30,17 @@ This Linux version so far includes three layouts:
   * an Israeli-hebrew based layout
   * an Israeli phonetic based layout
 
+**Installation**
+
+On the *buntus, at least:
+
+ 1) RECOMENDED: Back up your /usr/share/X11/xkb directory, just in case you experience any problems after installation: 
+   $ sudo cp /usr/share/X11/xkb ~/
+   
+ 2) Run ./install.sh
+  
+ 3) Open your keyboard layout dialogue. It might be in Preferences > Keyboard > Keyboard layouts.
+ 
+ 4) Add a new layout (+) > search for Yiddish > choose from either a qwerty-based layout or an Israeli-Hebrew-based layout (or go for both, if you're feeling adventurous).
+ 
+ Toggle between your keyboard layouts in the taskbar.
