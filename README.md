@@ -3,8 +3,11 @@ yiddish-keys-linux
 
 Yiddish keyboard layout for GNU/Linux
 
-Windows version:
-OSX version:
+Windows version: https://github.com/heyheydanhey/yiddish-keys-windows
+
+OSX version: to be uploaded...
+
+More info: http://www.shretl.org
 
 
 HEY DUMDUM, HEY SCHMO 
