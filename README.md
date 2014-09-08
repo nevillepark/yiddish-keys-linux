@@ -34,8 +34,7 @@ This Linux version so far includes three layouts:
 
 On the *buntus, at least:
 
- 1) RECOMENDED: Back up your /usr/share/X11/xkb directory, just in case you experience any problems after installation: 
-   $ sudo cp /usr/share/X11/xkb ~/
+ 1) RECOMENDED: Back up your /usr/share/X11/xkb directory, just in case you experience any problems after installation.
    
  2) Run ./install.sh
   
