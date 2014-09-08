@@ -1,0 +1,183 @@
+// Yiddish keyboard map
+//
+// Source:
+// https://github.com/heyheydanhey/yiddish-keys-linux
+//
+// http://www.shretl.org
+
+
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    // Yiddish qwerty keyboard map designed by Daniel Nemenyi
+
+    name[Group1]= "Yiddish (qwerty)";
+
+    key <AE01> { [     1, exclam, U20AA                           ] }; // sheykl
+    key <AE02> { [     2, at,    EuroSign                         ] };
+    key <AE03> { [     3, numbersign, U00A3                       ] }; // pound
+    key <AE04> { [     4, dollar, cent                            ] }; 
+    key <AE05> { [     5, percent,  U221E                         ] }; // infinity sign 
+    key <AE06> { [     6, asciicircum, U00B6                      ] }; // Pilcrow
+    key <AE07> { [     7, ampersand                               ] }; 
+    key <AE08> { [     8, asterisk, U2022                         ] }; // Bulet
+    key <AE09> { [     9, parenright,   U00AA                     ] }; // (mirrored)
+    key <AE10> { [     0, parenleft,    U00B0                     ] }; // (mirrored)
+    key <AE11> { [ minus,       underscore, U2E17                 ] }; // double oblique hyphen
+    key <AE12> { [ equal,       plus,       U2260                 ] }; // not equal to
+
+    key <AD01> { [ UFB3B                                          ] }; // (Q) kof
+    key <AD02> { [ U05E9,       UFB2B                             ] }; // (w) shin, sin
+    key <AD03> { [ hebrew_ayin                                    ] }; // (e) ayin
+    key <AD04> { [ hebrew_resh                                    ] }; // (r) reysh
+    key <AD05> { [ hebrew_tet,  UFB4A                             ] }; // (t) tet, tof
+    key <AD06> { [ U05F2,       UFB1F                             ] }; // (y) ey, ay
+    key <AD07> { [ hebrew_aleph                                   ] }; // (u) shtumer alef
+    key <AD08> { [ hebrew_yod,  UFB1D                             ] }; // (i) yud, yud mit a pintl
+    key <AD09> { [ UFB2F                                          ] }; // (o) kometz alef
+    key <AD10> { [ UFB44                                          ] }; // (p) pey 
+    key <AD11> { [ bracketright, braceright                       ] }; // (mirrored)
+    key <AD12> { [ bracketleft,  braceleft                        ] }; // (mirrored)
+
+    key <AC01> { [ UFB2E                                          ] }; // (a) patakh alef
+    key <AC02> { [ U05E1,       U05EA                             ] }; // (s) samekh, sof
+    key <AC03> { [ hebrew_dalet                                   ] }; // (d) daled
+    key <AC04> { [ UFB4E,       U05E3                             ] }; // (f) fey, langer fey
+    key <AC05> { [ hebrew_gimel                                   ] }; // (g) gimel
+    key <AC06> { [ hebrew_he                                      ] }; // (h) hey
+    key <AC07> { [ hebrew_chet                                    ] }; // (j) chet
+    key <AC08> { [ hebrew_qoph                                    ] }; // (k) kof
+    key <AC09> { [ hebrew_lamed,    U05F3,  U05F4                 ] }; // (l) lamed, geresh, tzvey gereyshim
+    key <AC10> { [ semicolon,   colon,      U003b                 ] }; // elipses
+    key <AC11> { [ U201E, U201C, U201C                            ] }; // quote, top quote
+
+    key <AB01> { [ hebrew_zain, hebrew_zain                       ] }; // (z) zayin 
+    key <AB02> { [ hebrew_zade, U05E5                             ] }; // (x) tzadik, langer tzadik 
+    key <AB03> { [ hebrew_kaph, hebrew_finalkaph                  ] }; // (c) khop, langer khop 
+    key <AB04> { [ hebrew_waw,  UFB35                             ] }; // (v) vov, vov mit a pintl 
+    key <AB05> { [ hebrew_bet,  UFB4C                             ] }; // (b) beys, veys 
+    key <AB06> { [ hebrew_nun,  hebrew_finalnun                   ] }; // (n) nun, langer nun 
+    key <AB07> { [ hebrew_mem,  hebrew_finalmem                   ] }; // (m) nun, shlosn mem 
+    key <AB08> { [ comma, greater                                 ] }; // (mirrored)
+    key <AB09> { [ period, less                                   ] }; // (mirrored)
+    key <AB10> { [ slash,       question                          ] }; 
+
+    key.type[Group1] = "THREE_LEVEL";
+
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys 
+xkb_symbols "israeli" {
+
+    // Yiddishised customization of the main layout of the 'xkb/symbols/il' file.
+
+    name[Group1]= "Yiddish (Israeli)";
+
+    key <AD01> { [ UFB2E,   slash                                 ] }; // patakh alef
+    key <AD02> { [ UFB2F,   U05F3,  U05F4                         ] }; // kometz alef, geresh, tzvey gereyshim
+    key <AD03> { [ hebrew_qoph, hebrew_qoph, EuroSign             ] };
+    key <AD04> { [ hebrew_resh                                    ] };
+    key <AD05> { [ hebrew_aleph, UFB2E,     UFB2F                 ] }; // alef, patekh alef, kometz alef
+    key <AD06> { [ hebrew_tet                                     ] };
+    key <AD07> { [ hebrew_waw,  UFB35                             ] };
+    key <AD08> { [ U05F2,       UFB1F                             ] }; // (y) ey, ay
+    key <AD09> { [ hebrew_finalmem                                ] };
+    key <AD10> { [ UFB4E, hebrew_finalpe, hebrew_finalpe         ]  }; // pey, fey 
+
+    key <AC01> { [ U05E9,       UFB2B,      U20AA                 ] }; // shin, sin, sheykl
+    key <AC02> { [ hebrew_dalet                                   ] };
+    key <AC03> { [ hebrew_gimel                                   ] };
+    key <AC04> { [ hebrew_kaph, UFB3B,      UFB3B                 ] }; // khof, kof
+    key <AC05> { [ hebrew_ayin                                    ] };
+    key <AC06> { [ hebrew_yod,  UFB1D,      UFB1F                 ] }; // yud, yud mit a pintl, ay
+    key <AC07> { [ hebrew_chet                                    ] };
+    key <AC08> { [ hebrew_lamed                                   ] };
+    key <AC09> { [ hebrew_finalkaph                               ] };
+    key <AC10> { [ UFB44,   colon,   semicolon            ] };
+    key <AC11> { [ comma,  U201E, U201C                           ] }; // quote, top quote
+    key <AC12> { [  backslash,    bar                               ] };
+
+    key <AB01> { [ hebrew_zain                                    ] };
+    key <AB02> { [ hebrew_samech                                  ] };
+    key <AB03> { [ hebrew_bet,  UFB4C,      UFB4C                 ] }; // beys, veys
+    key <AB04> { [ hebrew_he                                      ] };
+    key <AB05> { [ hebrew_nun, hebrew_finalnun ] };
+    key <AB06> { [ hebrew_mem, hebrew_finalmem ] };
+    key <AB07> { [ hebrew_zade                                    ] };
+    // mirrored:
+    key <AB08> { [ hebrew_taw,  UFB4A, greater                    ] }; // sof, tof
+    key <AB09> { [ hebrew_finalzade, hebrew_finalzade, less       ] };
+
+    key.type[Group1] = "THREE_LEVEL";
+    
+    key <TLDE> { [ semicolon,   asciitilde                        ] };
+    key <AB10> { [ period,  question                              ] };
+  
+    // The following may get overriden by the iso9995-3(basic101) symbols.
+    // therefore they are included here. 
+    // Including them isn't a great idea (for instance: what if group 1 uses
+    // UK keyboard mapping, and maps shift-3 to sterling? This mapping won't
+    // preserve that, and I'm not sure that this is a good feature.
+    key <AE01> { [     1, exclam                                  ] };
+    key <AE02> { [     2, at,               U05B7                 ] }; // patakh
+    key <AE03> { [     3, numbersign,       U05B8                 ] }; // komets
+    key <AE04> { [     4, dollar,           U00A3                 ] }; // pound
+    key <AE05> { [     5, percent                                 ] }; 
+    key <AE06> { [     6, asciicircum                             ] }; 
+    key <AE07> { [     7, ampersand                               ] }; 
+    key <AE08> { [     8, asterisk                                ] }; 
+    // Mirrored:
+    key <AE09> { [     9, parenright                              ] }; 
+    key <AE10> { [     0, parenleft                               ] };
+    key <AE11> { [ minus, underscore                              ] }; 
+    key <AE12> { [ equal, plus                                    ] };
+  
+    // Mirrored: 
+    key <AD11> { [ bracketright, braceright                       ] }; 
+    key <AD12> { [ bracketleft,  braceleft                        ] }; 
+                                      
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys 
+xkb_symbols "israeli-phonetic" {
+
+    // Yiddishised verion of the Hebrew phonetic layout from old Slackware 'il.map' file,
+    // as originally found in xkb/symbols/il
+
+    name[Group1]= "Yiddish (Israeli phonetic)";
+
+    key <AE12> {    [ equal, plus, hebrew_doublelowline ]};
+
+    key <LatQ> {    [ hebrew_qoph, UFB3B                          ] };
+    key <LatW> {    [ hebrew_waw, UFB35                           ] }; // vov mit a pintl
+    key <LatE> {    [ UFB2F                                       ] }; // kometz alef
+    key <LatR> {    [ hebrew_resh, hebrew_resh                    ] };
+    key <LatT> {    [ hebrew_tet,  UFB4A                          ] };
+    key <LatY> {    [ hebrew_ayin, hebrew_ayin                    ] };
+    key <LatU> {    [ UFB2E                                       ] }; // patakh alef 
+    key <LatI> {    [ hebrew_yod,   UFB1D                         ] }; // yud, yud mit a pintl
+    key <LatO> {    [ hebrew_samech, U05EA                        ] }; // sof
+    key <LatP> {    [ UFB44                                       ] }; // pey
+
+    key <LatA> {    [ hebrew_aleph, hebrew_aleph                  ] };
+    key <LatS> {    [ hebrew_shin, UFB2B                          ] };
+    key <LatD> {    [ hebrew_dalet, hebrew_dalet                  ] };
+    key <LatF> {    [ UFB4E,        U05E3                         ] }; // fey, langer fey
+    key <LatG> {    [ hebrew_gimel, hebrew_gimel                  ] };
+    key <LatH> {    [ hebrew_he, hebrew_he                        ] };
+    key <LatJ> {    [ U05F2,       UFB1F                          ] }; // ey, ay
+    key <LatK> {    [ hebrew_kaph, hebrew_finalkaph               ] };
+    key <LatL> {    [ hebrew_lamed, hebrew_lamed                  ] };
+
+    key <LatZ> {    [ hebrew_zain, hebrew_zain                    ] };
+    key <LatX> {    [ hebrew_chet, hebrew_chet                    ] };
+    key <LatC> {    [ hebrew_zade, hebrew_finalzade               ] };
+    key <LatV> {    [ UFB4C, UFB4C                                ] }; // veys
+    key <LatB> {    [ hebrew_bet, hebrew_bet                      ] };
+    key <LatN> {    [ hebrew_nun, hebrew_finalnun                 ] };
+    key <LatM> {    [ hebrew_mem, hebrew_finalmem                 ] };
+
+    include "level3(ralt_switch)"
+};
