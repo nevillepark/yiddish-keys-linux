@@ -9,8 +9,8 @@ OSX version:
 
 HEY DUMDUM, HEY SCHMO 
 ---------------------
-didn't you know you can write Yiddish with a Hebrew layout??
-------------------------------------------------------------
+**Didn't you know you can write Yiddish with a Hebrew layout??**
+
 
 Like a frozen forest bare of birds and leaves, Yiddish orthography on the internet 
 has shed its defining hats, dots and strikes because of the lack of alternatives 
