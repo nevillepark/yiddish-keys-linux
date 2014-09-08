@@ -5,7 +5,7 @@ Yiddish keyboard layout for GNU/Linux
 
 Windows version: https://github.com/heyheydanhey/yiddish-keys-windows
 
-OSX version: https://github.com/heyheydanhey/yiddish-keys-osx/blob/master/README.md
+OSX version: https://github.com/heyheydanhey/yiddish-keys-osx
 
 More info: http://www.shretl.org
 
