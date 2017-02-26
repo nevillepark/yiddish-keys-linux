@@ -16,16 +16,15 @@ sudo chown root:root /usr/share/X11/xkb/symbols/yi &&
 # Add Yiddish to rules/evdev.xml
 
 sudo sed -i 's_<\/layoutList>_<layout>\
-  <configItem>\
-    <name>yi</name>\
-\
-    <shortDescription>yi</shortDescription>\
-    <description>Yiddish</description>\
-    <languageList>\
-      <iso639Id>yid</iso639Id>\
-    </languageList>\
-  </configItem>\
- </layout>\
+    <configItem>\
+      <name>yi</name>\
+      <shortDescription>yi</shortDescription>\
+      <description>Yiddish</description>\
+      <languageList>\
+        <iso639Id>yid</iso639Id>\
+      </languageList>\
+    </configItem>\
+   </layout>\
 </layoutList>_g' /usr/share/X11/xkb/rules/evdev.xml &&
 
 # Add Yiddish to rules/evdev.lst
