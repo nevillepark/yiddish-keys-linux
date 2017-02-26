@@ -20,18 +20,14 @@ has shed its defining hats, dots and strikes because of the lack of alternatives
 to Modern Hebrew layouts, for which all such things are superfluous. Not only that, 
 but Hebrew's prioritization of different letters to Yiddish means that typing is so
 frustrating for many that they prefer typing in Latin characters than Hebrew. 
-Transliteration hurts the language - it prevents the development of litteracy, 
+Transliteration hurts the language&mdash;it prevents the development of literacy, 
 especially for those who come to the language as students rather than through birth.
 
 This Yiddish keyboard hopes to address this by providing an intuitive and eventually
 standard Yiddish keyboard for all major OSs to ultimately, it is hoped, include 
-as vanilla feature.
+as a vanilla feature.
 
-This Linux version so far includes three layouts:
-
-  * a qwerty based layout
-  * an Israeli-hebrew based layout
-  * an Israeli phonetic based layout
+This is a pared-down version of [heyheydanhey](https://github.com/heyheydanhey)'s version&mdash;just the QWERTY layout.
 
 **Installation**
 
