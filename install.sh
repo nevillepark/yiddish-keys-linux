@@ -35,7 +35,7 @@ sudo sed -i '/yi              Yiddish/d; // cleanup
 
 # Say nice things
 echo '
-Success! The Yiddish keyboard maps have been installed.
-To activate them in your operating system, see Settings -> Keyboard -> Keyboard Layouts -> add layout
+Success! The Yiddish keyboard map has been installed.
+To activate it in your operating system, see Settings -> Keyboard -> Keyboard Layouts -> add layout
 See http://www.shretl.org for more information.
 '
