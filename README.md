@@ -1,5 +1,4 @@
-yiddish-keys-linux
-==================
+# yiddish-keys-linux
 
 Yiddish keyboard layout for GNU/Linux
 
@@ -9,11 +8,8 @@ OSX version: https://github.com/heyheydanhey/yiddish-keys-osx
 
 More info: http://www.shretl.org
 
-
-HEY DUMDUM, HEY SCHMO 
----------------------
-**Didn't you know you can write Yiddish with a Hebrew layout?**
-
+**"But didn't you know you can write Yiddish with a Hebrew layout?"**
+**"*Nu*, tell me something I don't know!"**
 
 Like a frozen forest bare of birds and leaves, Yiddish orthography on the internet 
 has shed its defining hats, dots and strikes because of the lack of alternatives 
@@ -39,6 +35,6 @@ On the *buntus, at least:
   
  3) Open your keyboard layout dialogue. It might be in Preferences > Keyboard > Keyboard layouts.
  
- 4) Add a new layout (+) > search for Yiddish > choose from either a qwerty-based layout or an Israeli-Hebrew-based layout (or go for both, if you're feeling adventurous).
+ 4) Add a new layout (+) > search for Yiddish > choose the layout.
  
  Toggle between your keyboard layouts in the taskbar.
