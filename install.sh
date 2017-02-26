@@ -20,34 +20,17 @@ sudo sed -i 's_<\/layoutList>_<layout>\
     <name>yi</name>\
 \
     <shortDescription>yi</shortDescription>\
-    <description>Yiddish (qwerty)</description>\
+    <description>Yiddish</description>\
     <languageList>\
       <iso639Id>yid</iso639Id>\
     </languageList>\
   </configItem>\
-  <variantList>\
-    <variant>\
-      <configItem>\
-        <name>israeli</name>\
-        <shortDescription>yi</shortDescription>\
-        <description>Yiddish (Israeli)</description>\
-      </configItem>\
-    </variant>\
-    <variant>\
-     <configItem>\
-      <name>israeli-phonetic</name>\
-      <shortDescription>yi</shortDescription>\
-      <description>Yiddish (Israeli phonetic)</description>\
-     </configItem>\
- </variant>\
-  </variantList>\
-</layout>\
+ </layout>\
 </layoutList>_g' /usr/share/X11/xkb/rules/evdev.xml &&
 
 # Add Yiddish to rules/evdev.lst
 sudo sed -i '/yi              Yiddish/d; // cleanup
 
-s_il              Hebrew_il              Hebrew\
   yi              Yiddish_g' /usr/share/X11/xkb/rules/evdev.lst &&
 
 # Say nice things
