@@ -8,7 +8,7 @@ OSX version: https://github.com/heyheydanhey/yiddish-keys-osx
 
 More info: http://www.shretl.org
 
-**"But didn't you know you can write Yiddish with a Hebrew layout?"**
+**"But didn't you know you can write Yiddish with a Hebrew layout?"**  
 **"*Nu*, tell me something I don't know!"**
 
 Like a frozen forest bare of birds and leaves, Yiddish orthography on the internet 
@@ -29,12 +29,12 @@ This is a pared-down version of [heyheydanhey](https://github.com/heyheydanhey)'
 
 On the *buntus, at least:
 
- 1) RECOMENDED: Back up your /usr/share/X11/xkb directory, just in case you experience any problems after installation.
+ 1) RECOMMENDED: Back up your /usr/share/X11/xkb directory, just in case you experience any problems after installation.
    
- 2) Run ./install.sh
+ 2) Run ```chmod +x install.sh``` and ```./install.sh```
   
  3) Open your keyboard layout dialogue. It might be in Preferences > Keyboard > Keyboard layouts.
  
- 4) Add a new layout (+) > search for Yiddish > choose the layout.
+ 4) Add a new layout (+) > search for Yiddish > choose the default layout.
  
  Toggle between your keyboard layouts in the taskbar.
