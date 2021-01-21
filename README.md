@@ -25,7 +25,7 @@ as a vanilla feature.
 
 This is a pared-down version of [heyheydanhey](https://github.com/heyheydanhey)'s version&mdash;just the QWERTY layout.
 
-**Installation**
+## Installation
 
 On the *buntus, at least:
 
@@ -38,3 +38,9 @@ On the *buntus, at least:
  4) Add a new layout (+) > search for Yiddish > choose the default layout.
  
  Toggle between your keyboard layouts in the taskbar.
+
+## Screenshots
+
+![Keyboard layout](yiddish-keys.png)
+
+![Keyboard layout with Shift pressed](yiddish-keys-shift.png)
