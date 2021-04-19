@@ -6,7 +6,7 @@ Windows version: https://github.com/heyheydanhey/yiddish-keys-windows
 
 OSX version: https://github.com/heyheydanhey/yiddish-keys-osx
 
-More info: http://www.shretl.org
+More info: http://www.okey.kompyuter.net/klaviatur
 
 **"But didn't you know you can write Yiddish with a Hebrew layout?"**  
 **"*Nu*, tell me something I don't know!"**
