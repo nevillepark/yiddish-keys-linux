@@ -1,9 +1,9 @@
 // Yiddish keyboard map
 //
 // Source:
-// https://github.com/heyheydanhey/yiddish-keys-linux
+// https://gitlab.com/okey_kompyuter/yiddish-keys-linux
 //
-// http://www.shretl.org
+// https://okey.kompyuter.net/klaviatur
 
 
 default partial alphanumeric_keys

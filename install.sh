@@ -2,7 +2,7 @@
 
 # Installer for Yiddish keyboard map. 
 #
-# http://www.shretl.org
+# https://okey.kompyuter.net/klaviatur
 
 # Run ./install.sh
 # Then activate via Settings -> Keyboard -> Keyboard Layouts -> add layout 
@@ -36,5 +36,5 @@ sudo sed -i '/yi              Yiddish/d; // cleanup
 echo '
 Success! The Yiddish keyboard map has been installed.
 To activate it in your operating system, see Settings -> Keyboard -> Keyboard Layouts -> add layout
-See http://www.shretl.org for more information.
+See https://okey.kompyuter.net/klaviatur for more information.
 '
