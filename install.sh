@@ -28,9 +28,7 @@ sudo sed -i 's_<\/layoutList>_<layout>\
 </layoutList>_g' /usr/share/X11/xkb/rules/evdev.xml &&
 
 # Add Yiddish to rules/evdev.lst
-sudo sed -i '/yi              Yiddish/d; // cleanup
-
-  yi              Yiddish_g' /usr/share/X11/xkb/rules/evdev.lst &&
+sudo sed -i '/^! variant$/i \ \ yi              Yiddish\n' evdev.lst &&
 
 # Say nice things
 echo '
