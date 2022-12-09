@@ -21,11 +21,18 @@ This Yiddish keyboard hopes to address this by providing an intuitive and eventu
 standard Yiddish keyboard for all major OSs to ultimately, it is hoped, include 
 as a vanilla feature.
 
-This is a pared-down version of [heyheydanhey](https://gitlab.com/okey_kompyuter/yiddish-keys-linux)'s version&mdash;just the QWERTY layout.
+This is a pared-down version of [heyheydanhey](https://gitlab.com/okey_kompyuter/yiddish-keys-linux)'s version&mdash;just the QWERTY layout. 
+
+Some minor changes which I think make more sense:
+
+- `V` is now mapped to װ
+- `Shift+A` is now א
+- `U` and `Shift+U` are ו and וּ respectively
+- `Shift+O` is now ױ, a ligature previously not included
 
 ## Installation
 
-On the *buntus, at least:
+On Ubuntu-based systems, at least:
 
  1) RECOMMENDED: Back up your /usr/share/X11/xkb directory, just in case you experience any problems after installation.
    
@@ -35,10 +42,14 @@ On the *buntus, at least:
  
  4) Add a new layout (+) > search for Yiddish > choose the default layout.
  
- Toggle between your keyboard layouts in the taskbar.
+Toggle between your keyboard layouts in the taskbar.
 
 ## Screenshots
 
 ![Keyboard layout](yiddish-keys.png)
 
-![Keyboard layout with Shift pressed](yiddish-keys-shift.png)
+## To do
+
+- [ ] Add uninstall script  
+- [ ] Figure out if `sudo dpkg-reconfigure xkb-data` actually does anything  
+- [ ] Add some flair to script output

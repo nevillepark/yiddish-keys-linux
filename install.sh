@@ -10,6 +10,7 @@
 ##########################################################################
 
 # Copy Yiddish layout file into relevant directory
+
 sudo cp yi /usr/share/X11/xkb/symbols/yi &&
 sudo chown root:root /usr/share/X11/xkb/symbols/yi &&
 
@@ -27,8 +28,11 @@ sudo sed -i 's_<\/layoutList>_<layout>\
    </layout>\
 </layoutList>_g' /usr/share/X11/xkb/rules/evdev.xml &&
 
-# Add Yiddish to rules/evdev.lst
-sudo sed -i '/^! variant$/i \ \ yi              Yiddish\n' evdev.lst &&
+# Add Yiddish to rules/evdev.lst (optional?)
+# sudo sed -i '/^! variant$/i \ \ yi              Yiddish\n' evdev.lst &&
+
+# Reconfigure (not sure if this actually does anything)
+# sudo dpkg-reconfigure xkb-data
 
 # Say nice things
 echo '
